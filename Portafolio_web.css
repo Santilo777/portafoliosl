@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(109, 151, 26);
+    text-align: center;
+}
+
+.nombre {
+    text-align: center;
+    font-size: 150%;
+    
+}
+.listaprin {
+    display: flex;
+    justify-content: center;
+}
+
+.pri {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 1%;
+}
+
+.pri li{
+    margin: 20px;
+    font-size: 110%;
+}
+
+h2{
+    text-align: center;
+    }
+
+.imagen-circular {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: inline-block;
+  }
+.Experiencia {
+    display: flex;  
+    justify-content: center;
+    }
+
+.tablaexp {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.tablaexp td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.habilidycono {
+    display:flex;
+    text-align: center;
+}
+
+.listahabil {
+    display:inline-block;
+}
+
+.listahabil li {
+    text-align: left;
+}
+
+.educaciond {
+    display: flex;  
+    justify-content: center;
+    }
+
+.tablaedu {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.tablaedu td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.perfilso {
+    display: flex;
+    justify-content: center;
+}
+
+.lisperfilso {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lisperfilso li{
+    margin: 20px;
+    font-size: 110%;
+}
+
+.formulario1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fila {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+    }
+  
+  .fila label {
+    width: 120px; 
+    text-align: right;
+    margin-right: 10px; 
+  }
